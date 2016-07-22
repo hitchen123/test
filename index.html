@@ -13,6 +13,7 @@
     <title>Art de Vivre</title>
     <link rel="stylesheet" type="text/css" href="styles/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="styles/css/structure.css" />
+    <link rel="stylesheet" type="text/css" href="styles/css/animations.css" />
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 </head>
@@ -21,14 +22,14 @@
         <div class="g-container-outer">
             <!--Top-->
             <header class="b-top">
-                <div class="b-top__yellow-line">
+                <div class="b-top__yellow-line pt-page-heightOn">
                     <dl class="b-top__yellow-line-i">
                         <dt>Ваш регион Москва?</dt>
                         <dd>
-                            <a href="#">Да</a>
+                            <a class="b-top__yes" href="#">Да</a>
                         </dd>
                         <dd>
-                            <a href="#">Нет</a>
+                            <a class="b-top__no" href="#">Нет</a>
                         </dd>
                     </dl>
                 </div>
@@ -280,7 +281,7 @@
                             <a href="#" class="search-lnk">Поиск</a>
                         </li>
                     </ul>
-                    <div class="b-main-nav__search">
+                    <div class="b-main-nav__search pt-page-heightOff">
                         <div class="search-form cfix">
                             <form id="#">
                                 <input type="text" name="search" />
@@ -322,7 +323,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="b-main-nav__bag">
+                    <div class="b-main-nav__bag pt-page-heightOff">
                         <form id="#">
                             <article class="b-main-nav__bag-item cfix">
                                 <h3 class="title">
@@ -425,52 +426,52 @@
                             <div class="b-middle-nav__list-1 cfix">
                                 <dl>
                                     <dt>По стилю</dt>
-                                    <dd>
+                                    <dd class="active">
                                         <span>
                                             <a href="#">Традиционные</a>
-                                            <i style="background-image:url(temp/3.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/3.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Современные</a>
-                                            <i style="background-image:url(temp/4.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/4.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Европейское искусство</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Винтажные</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Этнические</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Дизайнерские</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Современная классика</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Детские</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                 </dl>
@@ -479,44 +480,44 @@
                                     <dd>
                                         <span>
                                             <a href="#">Дамаск</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Абстрактный</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Этнический</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Графический</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Одноцветные с текстурой</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <span>
                                             <a href="#">Икат</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                     <dd>
                                         <a href="#"></a>
                                         <span>
                                             <a href="#">Сузан</a>
-                                            <i style="background-image:url(temp/5.png)"></i>
+                                            <i class="b-middle-nav__list-i" style="background-image:url(temp/5.png)"></i>
                                         </span>
                                     </dd>
                                 </dl>                           
@@ -815,7 +816,7 @@
         </footer>
         <!--/Bottom-->
     </div>
-    <div class="b-overlay active"></div>
+    <div class="b-overlay"></div>
     <div class="b-coupon-pop-up">
         <h2 class="title">Купон на скидку 5 000 руб в наших магазинах</h2>
         <p>Оставьте свой email и мы вышлем вам сертификат на скидку в размере 5 000 рублей (но не более 20% от стоимости ковра)</p>
@@ -857,5 +858,7 @@
        </ul>
        <a href="#" class="close">Закрыть</a>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="styles/js/main.js"></script>
 </body>
 </html>
