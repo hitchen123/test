@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>previous</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="main-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(0.000000, -393.000000)">
+            <g id="БЛОК1" transform="translate(0.000000, 83.000000)">
+                <g id="previous" transform="translate(50.000000, 360.000000) rotate(-180.000000) translate(-50.000000, -360.000000) translate(0.000000, 310.000000)">
+                    <rect id="Rectangle-64" fill="#201001" opacity="0.319146455" x="0" y="0" width="100" height="100"></rect>
+                    <path d="M43,38 L56.2196045,50.5 L43,63" id="Path-323" stroke="#BFB8B3" stroke-width="2" transform="translate(49.609802, 50.500000) scale(-1, -1) rotate(-270.000000) translate(-49.609802, -50.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
