@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="14px" viewBox="0 0 9 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="корзина" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktpo" transform="translate(-561.000000, -1565.000000)" fill="#333333">
+            <g id="оплата" transform="translate(251.000000, 1230.000000)">
+                <g id="оплата-картой" transform="translate(69.000000, 197.000000)">
+                    <g id="front">
+                        <g id="срок-действия" transform="translate(206.341941, 107.945012)">
+                            <g id="Rectangle-28-+-01-+-Path" transform="translate(0.000000, 18.910566)">
+                                <path d="M34.9732104,15.7475891 L43.716513,15.7475891 L39.3448617,11.3732588 L34.9732104,15.7475891 Z M34.9732104,20.1219194 L43.716513,20.1219194 L39.3448617,24.4962497 L34.9732104,20.1219194 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
